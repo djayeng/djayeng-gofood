@@ -79,7 +79,7 @@ echo " ===========================\n";
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$messageboba10);
-        echo "\n".color("yellow","!] Claim voc PESANGOFOODYUK");
+        echo "\n".color("yellow","!] Claim voc PESANGOFOODYAK");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -104,14 +104,14 @@ echo " ===========================\n";
         $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GFSPESIAL20K"}');
         $message1 = fetch_value($goride,'"message":"','"');
         echo "\n".color("green","+] Message: ".$message1);
-        echo "\n".color("yellow","!] Claim voc GOFOOSANTAI08");
+        echo "\n".color("yellow","!] Claim voc GOFOOSANTAI11");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOSANTAI08"}');
+        $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOSANTAI11"}');
         $message2 = fetch_value($goride1,'"message":"','"');
         echo "\n".color("green","+] Message: ".$message2);
         sleep(3);
