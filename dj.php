@@ -4,7 +4,7 @@ include "function.php";
 echo color("red"," ===========================\n");
 echo color("red","| Auto create Gojek X Redeem voucher |\n");
 echo color("red","| Editor : djayeng grup INDONESIA    |\n");
-echo "| Version : www.ngetrix.com     |\n";
+echo "| Version : www.ngetrix.com         |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
 
